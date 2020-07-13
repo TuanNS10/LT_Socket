@@ -1,0 +1,29 @@
+﻿Build started 5/30/2019 12:47:45 AM.
+     1>Project "C:\Users\acer\Desktop\Source\Server\Server\Server.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Release\Server.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D CODE_ANALYSIS /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\Server.pch.codeanalysis" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze /analyze:plugin"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\\bin\localespc.dll" /errorReport:prompt   /analyze:quiet Server.cpp
+         Server.cpp
+     1>Server.cpp(306): warning C4018: '<' : signed/unsigned mismatch
+     1>Server.cpp(156): warning C4101: 'h' : unreferenced local variable
+     1>Server.cpp(216): warning C4101: 'method_pro' : unreferenced local variable
+     1>Server.cpp(215): warning C4101: 'len_method_pro' : unreferenced local variable
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0409" /nologo /fo"Release\Server.res" Server.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\acer\Desktop\Source\Server\Release\Server.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\acer\Desktop\Source\Server\Release\Server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\acer\Desktop\Source\Server\Release\Server.lib" /MACHINE:X86 /SAFESEH Release\Server.res
+         Release\Server.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         Server.vcxproj -> C:\Users\acer\Desktop\Source\Server\Release\Server.exe
+     1>c:\users\acer\desktop\source\server\server\server.cpp(480): warning C6031: Return value ignored: 'freopen'.
+     1>c:\users\acer\desktop\source\server\server\server.cpp(95): warning C6283: 'temp' is allocated with array new [], but deleted with scalar delete.
+     1>c:\users\acer\desktop\source\server\server\server.cpp(316): warning C6283: 'temp1' is allocated with array new [], but deleted with scalar delete.
+     1>c:\users\acer\desktop\source\server\server\server.cpp(248): warning C6385: Reading invalid data from 'sockClients':  the readable size is '((unsigned int)=num_client*1)*20+4' bytes, but '40' bytes may be read.
+     1>Done Building Project "C:\Users\acer\Desktop\Source\Server\Server\Server.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:35.06

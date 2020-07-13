@@ -1,0 +1,1 @@
+Đây là phần mềm Đấu giá online sử dụng C++, socket, thread 
